@@ -8,7 +8,7 @@ namespace Conversores_progII
 {
     class Conversor_de_almacenamieneto
     {
-        public string[] Tipo = { "moneda" };
+        public string[] Tipo = { "almacenamiento" };
 
         public string[][] etiquetas =
       {

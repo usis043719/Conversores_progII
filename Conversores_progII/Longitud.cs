@@ -10,16 +10,15 @@ using System.Windows.Forms;
 
 namespace Conversores_progII
 {
-    public partial class monedas : Form
+    public partial class Longitud : Form
     {
-        conversor_de_monedas objconversiones = new conversor_de_monedas();
-        public monedas()
-        {  
-
+        Conversor_de_longitud objconversiones = new Conversor_de_longitud();
+        public Longitud()
+        {
             InitializeComponent();
         }
 
-        private void monedas_Load(object sender, EventArgs e)
+        private void Longitud_Load(object sender, EventArgs e)
         {
             cboTipo.Items.AddRange(objconversiones.Tipo);
             cboTipo.SelectedIndex = 0;
@@ -48,7 +47,6 @@ namespace Conversores_progII
             lblRespuesta.Text = "!";
             txtCantidad.Text = "1";
         }
-
-       
     }
 }
+    

@@ -44,7 +44,7 @@
             this.btnConvertir.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnConvertir.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConvertir.ForeColor = System.Drawing.Color.Black;
-            this.btnConvertir.Location = new System.Drawing.Point(183, 207);
+            this.btnConvertir.Location = new System.Drawing.Point(207, 204);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(197, 38);
             this.btnConvertir.TabIndex = 4;
@@ -58,15 +58,15 @@
             this.lblRespuesta.BackColor = System.Drawing.Color.Transparent;
             this.lblRespuesta.Font = new System.Drawing.Font("Lato", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuesta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lblRespuesta.Location = new System.Drawing.Point(265, 178);
+            this.lblRespuesta.Location = new System.Drawing.Point(186, 176);
             this.lblRespuesta.Name = "lblRespuesta";
-            this.lblRespuesta.Size = new System.Drawing.Size(20, 25);
+            this.lblRespuesta.Size = new System.Drawing.Size(19, 25);
             this.lblRespuesta.TabIndex = 7;
-            this.lblRespuesta.Text = "_";
+            this.lblRespuesta.Text = "!";
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(219, 38);
+            this.txtCantidad.Location = new System.Drawing.Point(253, 39);
             this.txtCantidad.Multiline = true;
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(104, 20);
@@ -78,7 +78,7 @@
             // 
             this.cboDe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDe.FormattingEnabled = true;
-            this.cboDe.Location = new System.Drawing.Point(124, 111);
+            this.cboDe.Location = new System.Drawing.Point(123, 82);
             this.cboDe.Name = "cboDe";
             this.cboDe.Size = new System.Drawing.Size(108, 21);
             this.cboDe.TabIndex = 10;
@@ -88,7 +88,7 @@
             this.lblDe.AutoSize = true;
             this.lblDe.Font = new System.Drawing.Font("Copperplate Gothic Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDe.ForeColor = System.Drawing.Color.Black;
-            this.lblDe.Location = new System.Drawing.Point(73, 104);
+            this.lblDe.Location = new System.Drawing.Point(73, 82);
             this.lblDe.Name = "lblDe";
             this.lblDe.Size = new System.Drawing.Size(44, 21);
             this.lblDe.TabIndex = 9;
@@ -98,7 +98,7 @@
             // 
             this.cboA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboA.FormattingEnabled = true;
-            this.cboA.Location = new System.Drawing.Point(357, 110);
+            this.cboA.Location = new System.Drawing.Point(353, 82);
             this.cboA.Name = "cboA";
             this.cboA.Size = new System.Drawing.Size(110, 21);
             this.cboA.TabIndex = 12;
@@ -108,7 +108,7 @@
             this.lblA.AutoSize = true;
             this.lblA.Font = new System.Drawing.Font("Copperplate Gothic Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblA.ForeColor = System.Drawing.Color.Black;
-            this.lblA.Location = new System.Drawing.Point(319, 104);
+            this.lblA.Location = new System.Drawing.Point(316, 82);
             this.lblA.Name = "lblA";
             this.lblA.Size = new System.Drawing.Size(31, 21);
             this.lblA.TabIndex = 11;
@@ -119,7 +119,7 @@
             this.cboTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipo.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(442, 240);
+            this.cboTipo.Location = new System.Drawing.Point(12, 240);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(105, 26);
             this.cboTipo.TabIndex = 13;
@@ -130,7 +130,7 @@
             // 
             this.lblcant.AutoSize = true;
             this.lblcant.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcant.Location = new System.Drawing.Point(75, 38);
+            this.lblcant.Location = new System.Drawing.Point(109, 39);
             this.lblcant.Name = "lblcant";
             this.lblcant.Size = new System.Drawing.Size(138, 18);
             this.lblcant.TabIndex = 14;

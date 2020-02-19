@@ -16,7 +16,7 @@ namespace Conversores_progII
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pesos ());
+            Application.Run(new volumen ());
         }
     }
 }

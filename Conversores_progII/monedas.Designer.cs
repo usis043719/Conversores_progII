@@ -44,7 +44,7 @@
             this.btnConvertir.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnConvertir.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConvertir.ForeColor = System.Drawing.Color.Black;
-            this.btnConvertir.Location = new System.Drawing.Point(207, 204);
+            this.btnConvertir.Location = new System.Drawing.Point(207, 205);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(197, 38);
             this.btnConvertir.TabIndex = 4;

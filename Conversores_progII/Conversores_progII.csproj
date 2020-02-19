@@ -65,6 +65,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="almacenamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="almacenamiento.Designer.cs">
+      <DependentUpon>almacenamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conversor_de_almacenamieneto.cs" />
     <Compile Include="Conversor_de_longitud.cs" />
     <Compile Include="conversor_de_monedas.cs" />
     <Compile Include="Conversor_de_peso.cs" />
@@ -95,6 +102,9 @@
     <Compile Include="volumen.Designer.cs">
       <DependentUpon>volumen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="almacenamiento.resx">
+      <DependentUpon>almacenamiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Longitud.resx">
       <DependentUpon>Longitud.cs</DependentUpon>
     </EmbeddedResource>

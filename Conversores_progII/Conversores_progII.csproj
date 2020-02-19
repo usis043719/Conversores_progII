@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Conversor_de_longitud.cs" />
     <Compile Include="conversor_de_monedas.cs" />
+    <Compile Include="Conversor_de_peso.cs" />
     <Compile Include="Longitud.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +80,12 @@
     <Compile Include="monedas.Designer.cs">
       <DependentUpon>monedas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pesos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesos.Designer.cs">
+      <DependentUpon>Pesos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Longitud.resx">
@@ -86,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="monedas.resx">
       <DependentUpon>monedas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesos.resx">
+      <DependentUpon>Pesos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

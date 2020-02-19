@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace Conversores_progII
 {
-    class Conversor_de_longitud
+    class Conversor_de_peso
     {
-        public string[] Tipo = { "longitudes" };
+        
+        public string[] Tipo = { "peso" };
 
         public string[][] etiquetas =
       {
-            new string [] {"Metro", "Cm", "Pulgada", "pie", "Varas","Yardas","Km","Milla", "Milimetro","MicroMetro", "NanoMetro", "milla nautica"},
+            new string [] {"Kilogramo","Gramo","Miligramo","MicroGramo","Libra","Onza", "Tonelada", "Stone" ," tonelada larga", "tonelada corta"},
                  };
         double[][] valores =
      {
-            new double[] { 1, 100, 39.3701, 3.28084, 1.1963081929167, 1.09361, 0.001, 0.000621371, 1000, 1e+6, 1e+9,0.000539957 },
+            new double[] { 1, 1000, 1e+6 , 1e+9, 2.20462, 35.274, 0.001, 0.157473, 0.000984207,0.00110231 },
              };
         public double convertir(int de, int a, double cantidad, int opcion)
         {
@@ -25,4 +26,3 @@ namespace Conversores_progII
 
     }
 }
-    
